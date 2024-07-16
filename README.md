@@ -85,7 +85,7 @@
     </tr>
   </tbody>
 </table>
-<p>in theory it would also work with regular HTML tags as well, and thus should ABSOLUTELY be considere <mark>NOT SAFE TO DEPLOY IN A WEB ENVIRONMENT</mark> due to being vulnerable to XSS (as well as stored XSS).</p>
+<p>in theory it would also work with regular HTML tags as well, and thus should ABSOLUTELY be considered <mark>NOT SAFE TO DEPLOY IN A WEB ENVIRONMENT</mark> due to being vulnerable to XSS (as well as stored XSS).</p>
 <p>**This means that in the event a pre-existing database for this note program is shared and openned, it is recommended that the user not be connected to the internet directly -- because its (obviously) possible to store a &lt;script&gt; tag that exfiltrates data and does other lame stuff.</p>
 <p><h3>SOLUTION:</h3> disconnect from the internet (you can do it because the styles are all custom and no CDNs or javascript libraries are required)</p>
 
