@@ -31,13 +31,15 @@
 <p>to update a notes name, click its name and press enter to commit the change. (async update)</p>
 <p>to delete an existing note click the red X button</p>
 <hr>
-<b>viewing/editing the document</b><br>
+<b>viewing/editing the document</b>
+
 <p>when editing the document, new notes can be added by clicking the big green plus button</p>
 <p>existing sections can be updated by clicking the section and editing via the text box</p>
 <p>the dictionary is invoked via the clipboard button in the top right of the screen</p>
 <p>the calculator is invoked via the +/- symbol on the right of the screen below clipboard button</p>
 <hr>
 <b>using the dictionary</b>
+
 <p>to use the dictionary, click the clipboard and use the popup dialogue to add new words and definitions. to update words and definitions, click the word or definition you wish to update and edit via the text box or input</p>
 <p>(work in progress) while in read only mode, the first occurance of each word should be underlined (and its truncated definition should appear above on hover)</p>
 
