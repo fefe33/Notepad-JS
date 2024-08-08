@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>notes</title>
+    <link rel="stylesheet" href="/static/styles/index.css">
+</head>
+<body>
+    <section id="modal_container">
+        <div id="popover" class="modal">
+            <!-- Modal content -->
+            <div class="popover-content">
+                <span class="close" style="cursor:pointer;">&times;</span>
+                <div id="appendContent">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main">
+        <div class="container">
+            <table id="options_table">
+                <thead>
+                    <th colspan="6"><h1>My Notes</h1></th>
+                </thead>
+                <tbody id="append_titles">
+                    <tr class="btnRow">
+                        <td colspan="3">
+                            <div>
+                                <label for="fsearch" ></label>
+                                <input id='fsearch' text='Search/Filter' value='' placeholder="Filter" type="search" style="border-radius:20px; background-color:grey;height:55px; width: 60%; text-align:center;padding:3%;font-size:1.9rem;">
+                            </div>
+                        </td>
+                        <td colspan="3" >
+                            <button class="newNoteButton" id="newNotes" style="cursor:pointer;">New</button>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <script src="/static/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Value SETNAME is defined by the value pulled from the database  -->
+    <title>{{ SETNAME }}</title>
+    <link rel="stylesheet" href="/static/styles/Set.css">
+</head>
+<body>
+
+<!--the dictionary popover-->
+    <section id="modal_container">
+        <div id="popover" class="dict-modal">
+            <!-- Modal content -->
+            <div class="dict-popover-content" style="justify-content:center;align-items:center;border:1px solid black;border-radius:4px;">
+                <div id="backBtn"><span id="closeDict" class="close" style="cursor:pointer;color:maroon;font-size:1.25em;">&larr; <span class="close" style="font-size:0.9em;color:maroon;">go back</span></span></div>
+                <div id="appendDict" style="width:100%; text-align:center;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--the calculator-->
+    <section id="calc_container" >
+
+        <div id="calc-popover" class="calc-modal" style="display:none;">
+            <!-- Modal content -->
+            <div class="popover-content">
+                <div id='closeCalc' class="close controlBtnCalc" style="cursor:pointer; font-size:0.9em;display:inline-block;">close</div>
+                <div id='copyResult' class="close controlBtnCalc" style="cursor:pointer; font-size:0.9em;display:inline-block;">copy result</div>
+                <div id="calc-table">
+                    <table style="border-color:orange;">
+                        <thead>
+                            <tr style="background-color:rgb(0,0,0,0.1)">
+                                <td id='display' colspan="4"><input style="width:65%;height:35px;transform:translateY(14px);font-size:2rem;text-align:center;" type="text" disabled></td>
+                            </tr>
+                        </thead>
+                        <tbody id="calculator">
+                            <tr>
+                                <td data-ctl="pi" class="btnCalc ctrl">&pi;</td>
+                                <td class="btnCalc ctrl iOps">log</td>
+                                <td class="btnCalc ctrl iOps">ln</td>
+                                <td class="btnCalc ctrl basicOp">y<sup>x</sup></td>
+                            </tr>
+                            <tr>
+                                <td class="btnCalc ctrl iOps">sin</td>
+                                <td class="btnCalc ctrl iOps">cos</td>
+                                <td class="btnCalc ctrl iOps">tan</td>
+                                <td data-ctl="sroot" class="btnCalc ctrl iOps">&radic;x</td>
+                            </tr>
+                            <tr>
+                                <td data-ctl="inv" class="btnCalc ctrl iOps">1/x</td>
+                                <td data-ctl="sq" class="btnCalc ctrl iOps">x<sup>2</sup></td>
+                                <td class="btnCalc cls">cls</td>
+                                <td class="btnCalc ctrlBasic basicOp"><b>&times;</b></td>
+                            </tr>
+                            <tr>
+                                <td class="btnCalc number">0</td>
+                                <td class="btnCalc number">1</td>
+                                <td class="btnCalc number">2</td>
+                                <td class="btnCalc ctrlBasic basicOp"><b>&div;</b></td>
+                            </tr>
+                            <tr>
+                                <td class="btnCalc number">3</td>
+                                <td class="btnCalc number">4</td>
+                                <td class="btnCalc number">5</td>
+                                <td class="btnCalc ctrlBasic basicOp"><b>&plus;</b></td>
+                            </tr>
+                            <tr>
+                                <td class="btnCalc number">6</td>
+                                <td class="btnCalc number">7</td>
+                                <td class="btnCalc number">8</td>
+                                <td class="btnCalc ctrlBasic basicOp"><b>&minus;</b></td>
+                            </tr>
+                            <tr>
+                                <td class="btnCalc number">9</td>
+                                <td class="btnCalc number">.</td>
+                                <td colspan="2" class="btnCalc EQ">=</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--the floaty buttons-->
+    <section id="floatyButtons">
+        <div id="backBtnDiv">&rarrhk;</div>
+        <div id="dictBtnDiv">&#128203;</div>
+        <div id="calcBtnDiv" hidden="true">&plus;/&minus;</div>
+    </section>
+
+
+
+    <section id="main">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="12" id="noteTitle">
+
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="appendRows"></tbody>
+        </table>
+    </section>
+    <script src="/static/js/Set.js" type="text/javascript"></script>
+    <script src="/static/js/dict.js" type="text/javascript"></script>
+    <script src="/static/js/calc.js" type="text/javascript"></script>
+</body>
+</html>
