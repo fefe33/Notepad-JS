@@ -1,0 +1,1 @@
+this folder is for databases and contains the default/testing DBs. any other folder can be specifed in %__filepath__%/cfg/config.txt
