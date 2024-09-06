@@ -93,7 +93,7 @@
 </table>
 <p>syntax for tables are as folows:</p>
 <code>!table(title 1, title 2):[item 1, item 1 description, item 2, item 2 description, ...]</code>
-<p>commas escaped with <code>\,</code></p>
+<p>commas are escaped with <code>\,</code>. styles currently do not work within tables and will be printed as raw html.</p>
 <p>titles should be put between the parentheses, the array provided after should provide values as they would fall into the array of titles.</p>
 <p>if the number of items provided in the array following titles in the set of parantheses mod (%) the number of titles is greater than zero, a dashes ('-') are appended to the remaining empty cells at the end of the table </p>
 
