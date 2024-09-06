@@ -40,6 +40,7 @@
 <hr>
 
 <h2><b>using the dictionary</b></h2>
+<!--
 <p>to use the dictionary, click the clipboard and use the popup dialogue to add new words and definitions. you must be in edit mode to update words and definitions. while in edit mode, click the word or definition you wish to update and edit via the text box or input</p>
 <p>(work in progress) while in read only mode, the first occurance within the entire note of each word should be underlined -- its definition [truncated to 64 chars] appearing above on hover.</p>
 <p>the dictionary is also read only when viewing it in read only mode</p>
@@ -82,9 +83,17 @@
     <tr>
       <td>!h</td>
       <td>highlight</td>
+    </tr><tr>
+      <td>!c</td>
+      <td>equiv to &lt;code&gt;</td>
     </tr>
   </tbody>
 </table>
+<p>syntax for tables are as folows:</p>
+<code>!table(title 1, title 2):[first item, this is the first thing\, it does stuff., second item, this is the second item...]</code>
+<p>titles should be put between the parentheses, the array provided after should provide values as they would fall into the array of titles.</p>
+<p>if the number of items provided in the array following titles in the set of parantheses mod (%) the number of titles is greater than zero, a dashes ('-') are appended to the remaining empty cells at the end of the table </p>
+
 <p>in theory it would also work with regular HTML tags as well, and thus should ABSOLUTELY be considered <mark>NOT SAFE TO DEPLOY IN A WEB ENVIRONMENT</mark> due to being vulnerable to XSS (as well as stored XSS).</p>
 <p>**This means that in the event a pre-existing database for this note program is shared and openned, it is recommended that the user not be connected to the internet directly -- because its (obviously) possible to store a &lt;script&gt; tag that exfiltrates data and does other lame stuff.</p>
 <p><h3>SOLUTION:</h3> disconnect from the internet (you can do it because the styles are all custom and no CDNs or javascript libraries are required)</p>
