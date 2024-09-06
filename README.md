@@ -40,6 +40,7 @@
 <hr>
 
 <h2><b>using the dictionary</b></h2>
+<h1>not currently implimented</h1>
 <!--
 <p>to use the dictionary, click the clipboard and use the popup dialogue to add new words and definitions. you must be in edit mode to update words and definitions. while in edit mode, click the word or definition you wish to update and edit via the text box or input</p>
 <p>(work in progress) while in read only mode, the first occurance within the entire note of each word should be underlined -- its definition [truncated to 64 chars] appearing above on hover.</p>
