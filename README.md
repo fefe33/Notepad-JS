@@ -45,6 +45,7 @@
 <p>(work in progress) while in read only mode, the first occurance within the entire note of each word should be underlined -- its definition [truncated to 64 chars] appearing above on hover.</p>
 <p>the dictionary is also read only when viewing it in read only mode</p>
 <hr>
+-->
 <h2><b>using the calculator</b></h2>
 <p>the calculator is opened via the +/- symbol on the right of the screen when in edit or view mode. it supports some basic 1 and 2 input operations</p>
 <hr>
