@@ -9,9 +9,9 @@
 <ul>
   <li>the ability to create, edit, update, and delete notes</li>
   <li>a read-only mode feature</li>
-  <li>a simple way to style sections of text *(does not support punctuation)</li>
+  <li>a simple way to style sections of text</li>
   <li>a basic calculator</li>
-  <li>a means to define vocab words</li>
+  <li>a simple syntax for representing data in pre-styled HTML tables</li>
 </ul>
 
 # config/installation
