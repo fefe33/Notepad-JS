@@ -1,5 +1,5 @@
 # notepad
-<p>a simple notepad application. designed and written by Mo A. (aka fefe33)</p>
+<p>anotepad application. designed and written by Mo A. (aka fefe33)</p>
 <br>
 <p>the application is designed to run on a local flask server which uses an sqlite3 database to store notes. IT SHOULD NEVER BE DEPLOYED IN A WEB ENVIRONMENT. the front end is written in CSS, HTML, and vanilla JS.</p>
 <br>
@@ -96,11 +96,6 @@
 <p>commas are escaped with <code>\,</code>. styles currently do not work within tables and will be printed as raw html.</p>
 <p>titles should be put between the parentheses, the array provided after should provide values as they would fall into the array of titles.</p>
 <p>if the number of items provided in the array following titles in the set of parantheses mod (%) the number of titles is greater than zero, a dashes ('-') are appended to the remaining empty cells at the end of the table </p>
-
-<p>in theory it would also work with regular HTML tags as well, and thus should ABSOLUTELY be considered <mark>NOT SAFE TO DEPLOY IN A WEB ENVIRONMENT</mark> due to being vulnerable to XSS (as well as stored XSS).</p>
-<p>**This means that in the event a pre-existing database for this note program is shared and openned, it is recommended that the user not be connected to the internet directly -- because its (obviously) possible to store a &lt;script&gt; tag that exfiltrates data and does other lame stuff.</p>
-<p><h3>SOLUTION:</h3> disconnect from the internet (you can do it because the styles are all custom and no CDNs or javascript libraries are required)</p>
-
 
 
 
