@@ -1,5 +1,5 @@
 # notepad
-<p>anotepad application. designed and written by Mo A. (aka fefe33)</p>
+<p>a notepad application. designed and written by Mo A. (aka fefe33)</p>
 <br>
 <p>the application is designed to run on a local flask server which uses an sqlite3 database to store notes. IT SHOULD NEVER BE DEPLOYED IN A WEB ENVIRONMENT. the front end is written in CSS, HTML, and vanilla JS.</p>
 <br>
