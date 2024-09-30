@@ -17,7 +17,7 @@
 # config/installation
 <ol>
   <li><p>install python3-venv by running <code>sudo apt update&&sudo apt install python3-venv</code></p></li>
-  <li><p>create your virtual environment by running <code> python3 venv Notepad-JS</code>.</p></li>
+  <li><p>create your virtual environment by running <code> python3 -m venv Notepad-JS</code>.</p></li>
   <li><p>cd into the newly created directory and enter the virtual environment by running: <code>cd Notepad-JS&&source bin/activate</code>.</p></li>
   <li><p>make sure the dependancy is installed by running <code>pip install flask</code></p></li>
   <li><p>run <code>git clone https://github.com/fefe33/Notepad-JS</code></p></li>
