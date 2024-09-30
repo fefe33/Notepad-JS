@@ -16,7 +16,10 @@
 
 # config/installation
 <ol>
-  <li><p>make sure the prerequisites are installed by running <code>pip install flask</code></p></li>
+  <li><p>install python3-venv by running <code>sudo apt update&&sudo apt install python3-venv</code></p></li>
+  <li><p>create your virtual environment by running <code> python3 venv Notepad-JS</code>.</p></li>
+  <li><p>cd into the newly created directory and enter the virtual environment by running: <code>cd Notepad-JS&&source bin/activate</code>.</p></li>
+  <li><p>make sure the dependancy is installed by running <code>pip install flask</code></p></li>
   <li><p>run <code>git clone https://github.com/fefe33/Notepad-JS</code></p></li>
   <li><p>(optional) using the editor of your choice, go into the /cfg directory (in the program's root directory) and edit the config.txt file. change the value of database to the name of your choice (ending in .db). the default is the example database which just contains a sample note showcasing some of the applications features</p></li>
   <li><p><code>cd</code> into the program's root folder and run <code>python3 app.py</code>, then navigate to http://127.0.0.1/ in your browser.</p></li>
