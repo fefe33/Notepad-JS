@@ -17,7 +17,7 @@
 # config/installation
 <ol>
   <li><p>make sure the prerequisites are installed by running <code>pip install flask</code></p></li>
-  <li><p>run <code>git clone https://github.com/fefe33/notepad</code></p></li>
+  <li><p>run <code>git clone https://github.com/fefe33/Notepad-JS</code></p></li>
   <li><p>(optional) using the editor of your choice, go into the /cfg directory (in the program's root directory) and edit the config.txt file. change the value of database to the name of your choice (ending in .db). the default is the example database which just contains a sample note showcasing some of the applications features</p></li>
   <li><p><code>cd</code> into the program's root folder and run <code>python3 app.py</code>, then navigate to http://127.0.0.1/ in your browser.</p></li>
 </ol><br>
